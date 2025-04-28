@@ -12,7 +12,7 @@ export default function StickyFooterNav({ step, totalSteps, onNext, onBack, isLo
               style={{ width: `${(step / totalSteps) * 100}%` }}
             />
           </div>
-          <p className="text-xs text-gray-600 mt-1">Step {step} of {totalSteps}</p>
+          <p className="text-xs text-gray-600 mt-1">Step {step} of {totalSteps}</p>f
         </div>
 
         {/* Buttons */}
